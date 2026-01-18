@@ -12,5 +12,5 @@ st.write(age)
 rating= st.slider("rate",0,10)
 st.write(rating)
 
-b= st.button("Click Me")
-st.write(b)
+if st.button("Click Me"):
+  st.write("Button Clicked")
