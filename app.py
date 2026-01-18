@@ -1,5 +1,5 @@
 import streamlit as st
-
+import time
 st.set_page_config(page_title="Faculty Profile", page_icon=" ", layout="wide")
 
 st.title(" Faculty Profile Demo")
