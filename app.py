@@ -16,5 +16,14 @@ st.write(rating)
 if st.button("Click Me"):
   st.write("Button Clicked")
 
-marks = pd.Series([78, 85, 92])
-st.write(marks)
+col1, col2 = st.columns(2)
+
+with col1:
+    st.header("Personal Info")
+    st.write("Name: Amit")
+    st.write("Age: 20")
+
+with col2:
+    st.header("Marks")
+    st.write("Maths: 85")
+    st.write("Science: 90")
