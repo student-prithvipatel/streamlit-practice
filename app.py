@@ -35,3 +35,8 @@ with st.expander("Show Courses Handled"):
 with st.expander("Show Publications"):
   st.write("1. Research Paper A (2021)")
   st.write("2. Research Paper B (2023)")
+
+with st.container():
+    st.header("Student Info")
+    st.write("Name: Ravi")
+    st.write("Marks: 88")
