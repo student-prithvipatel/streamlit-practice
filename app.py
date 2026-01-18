@@ -17,4 +17,4 @@ if st.button("Click Me"):
   st.write("Button Clicked")
 
 marks = pd.Series([78, 85, 92])
-print(marks)
+st.write(marks)
