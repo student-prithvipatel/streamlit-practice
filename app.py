@@ -40,3 +40,11 @@ with st.container():
     st.header("Student Info")
     st.write("Name: Ravi")
     st.write("Marks: 88")
+
+if st.button("Start Long Task"):
+  progress = st.progress(0)
+  with st.spinner("Processing..."):
+    for i in range(100):
+      time.sleep(0.03)
+      progress.progress(i + 1)
+  st.success("Task completed!")
